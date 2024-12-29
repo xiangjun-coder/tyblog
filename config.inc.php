@@ -36,7 +36,7 @@ Typecho_Common::init();
 /** 定义数据库参数 */
 $db = new Typecho_Db('Pdo_Mysql', 'typecho_');
 $db->addServer(array (
-  'host' => 'mysql.sqlpub.com',
+  'host' => 'mysql.sqlpub.com:3306',
   'user' => 'psdirm',
   'password' => 'Bd2ycDn5IwitZcWK',
   'charset' => 'utf8mb4',
